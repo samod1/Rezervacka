@@ -20,12 +20,23 @@ require_once "config.php";
         <div class="col"></div>
         <div class="col">
             <h3>Registrujte sa!</h3>
+            <br>
             <form class="form-group" method="post">
                 <label>Prihlasovacie meno</label>
                 <input class="form-control form-control-lg" type="text" name="username">
                 <br>
                 <label>Heslo:</label>
                 <input class="form-control form-control-lg" type="password" name="pass">
+<br>
+                <label>Meno:</label>
+                <input type="text" class="form-control form-control-lg" name="name">
+                <br>
+                <label>Priezvisko</label>
+                <input type="text" class="form-control form-control-lg" name="name">
+                <br>
+                <label>E-mail</label>
+                <input type="email" name="email" class="form-control form-control-lg">
+
             </form>
         </div>
         <div class="col"></div>
